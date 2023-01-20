@@ -7,7 +7,7 @@ pipeline {
       stage("clone code")  {
             steps {
                 script {
-                    git 'https://github.com/alimelus/sample-project-maven';
+                    git 'https://github.com/alimelus/javaparser-maven-sample.git';
             }
             }
             }
